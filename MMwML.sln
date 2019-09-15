@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ImageClassifier", "ImageClassifier\ImageClassifier.pyproj", "{DD353ACB-3A85-43FA-8993-9596A2DFACC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD353ACB-3A85-43FA-8993-9596A2DFACC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD353ACB-3A85-43FA-8993-9596A2DFACC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD353ACB-3A85-43FA-8993-9596A2DFACC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD353ACB-3A85-43FA-8993-9596A2DFACC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4FD7E9E-D961-4893-B7AB-B8D721F7B8DE}
+	EndGlobalSection
+EndGlobal
