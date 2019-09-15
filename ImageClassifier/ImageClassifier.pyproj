@@ -41,6 +41,7 @@
     <Folder Include="ImageClassifier\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ImageClassifier\static\scripts\index.js" />
     <Content Include="requirements.txt" />
     <Content Include="ImageClassifier\static\content\bootstrap.css" />
     <Content Include="ImageClassifier\static\content\bootstrap.min.css" />

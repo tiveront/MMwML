@@ -1,6 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <!-- Code from TensorFlow.js tutorial -->
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+
+    <!-- Regular Flask WebApp Code -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - My Flask Application</title>
@@ -29,6 +36,24 @@
             </div>
         </div>
     </div>
+
+    <!-- Code from TensorFlow.js tutorial - Basic -->
+    <!--<div id="console"></div>
+     Add an image that we will use to test
+    <img id="img" crossOrigin src="https://i.imgur.com/JlUvsxa.jpg" width=227 height=227 />-->
+    <!-- Code from TensorFlow.js tutorial - Webcam feature -->
+    <div id="console" align="center">
+    </div>
+    <div id="video" align="center">
+        <video autoplay playsinline muted id="webcam" width="720" height="486"></video>
+    </div>
+
+    <!--<button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>-->
+    <!-- Load index.js after the content of the page -->
+    <script src="/static/scripts/index.js"></script>
+
 
     <div class="container body-content">
         {% block content %}{% endblock %}
